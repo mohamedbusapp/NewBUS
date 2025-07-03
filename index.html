@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#6a0dad" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Mohamed Bus Pass</title>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Weekly Pass</h1>
+      <p class="zone">Portsmouth Zone</p>
+      <p class="username">Mohamed</p>
+    </div>
+
+    <div class="time-box">
+      <div id="time">00:00:00</div>
+    </div>
+
+    <div class="countdown-section">
+      <p class="countdown-label">Live Countdown</p>
+      <div class="countdown">
+        <div class="unit"><span id="days">0</span><small>Days</small></div>
+        <div class="unit"><span id="hours">0</span><small>Hours</small></div>
+        <div class="unit"><span id="minutes">0</span><small>Minutes</small></div>
+        <div class="unit spinning-circle"><span id="seconds">0</span></div>
+      </div>
+    </div>
+
+    <div class="qr-container">
+      <img src="icon.png" alt="QR Code" class="qr" />
+    </div>
+
+    <div class="footer">
+      <div class="tab">🎫 E-Tickets</div>
+      <div class="tab">🗺 Plan</div>
+      <div class="tab">👤 Profile</div>
+    </div>
+
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>

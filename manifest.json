@@ -1,0 +1,14 @@
+
+{
+  "name": "Mohamed Bus Pass",
+  "short_name": "Bus Pass",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#6a0dad",
+  "icons": [{
+    "src": "icon.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  }]
+}
